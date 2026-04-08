@@ -1,7 +1,7 @@
 from .cafe import Cafe
-from .error import NotVaccinatedError
-from .error import OutdatedVaccineError
-from .error import NotWearingMaskError
+from .errors import NotVaccinatedError
+from .errors import OutdatedVaccineError
+from .errors import NotWearingMaskError
 
 
 def go_to_cafe(friends: list, cafe: Cafe) -> str:
